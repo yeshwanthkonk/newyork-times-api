@@ -108,7 +108,7 @@ function createNews(sect, title, date, content, url,jpg){
     var row = document.createElement('div');
     row.setAttribute("class", "row no-gutters");
     var col_8 = document.createElement('div');
-    col_8.setAttribute("class", "col-lg-12 col-xl-8");
+    col_8.setAttribute("class", "col-sm-12 col-md-8");
     var card_body = document.createElement('div');
     card_body.setAttribute("class", "card-body");
     var h5 = document.createElement('h5');
@@ -133,7 +133,7 @@ function createNews(sect, title, date, content, url,jpg){
     col_8.append(card_body);
 
     var col_4 = document.createElement('div');
-    col_4.setAttribute("class", "col-lg-12 col-xl-4 ");
+    col_4.setAttribute("class", "col-sm-12 col-md-4 ");
     var img = document.createElement('img');
     img.setAttribute("class", "img-thumbnail");
     img.src = jpg;
